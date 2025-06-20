@@ -1,0 +1,740 @@
+.features-page {
+  background-color: #282727;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.features-page .div-6 {
+  background-color: #282727;
+  overflow: hidden;
+  width: 1920px;
+  height: 11138px;
+  position: relative;
+}
+
+.features-page .contact-heading-4 {
+  position: absolute;
+  width: 1933px;
+  height: 885px;
+  top: 9032px;
+  left: -9px;
+}
+
+.features-page .overlap-group-8 {
+  position: relative;
+  width: 1929px;
+  height: 885px;
+  background-image: url(./img/fwd-request-a-demo-1-3.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.features-page .demo-description-3 {
+  width: 728px;
+  top: 399px;
+  font-size: 28px;
+  line-height: normal;
+  position: absolute;
+  left: 207px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.10px;
+}
+
+.features-page .demo-title-3 {
+  width: 846px;
+  top: 213px;
+  font-size: 98px;
+  line-height: 128px;
+  white-space: nowrap;
+  position: absolute;
+  left: 207px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.10px;
+}
+
+.features-page .contact-us-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 80px;
+  position: absolute;
+  top: 624px;
+  left: 207px;
+  background-color: #282727;
+  border-radius: 100px;
+}
+
+.features-page .text-wrapper-45 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .overlap-20 {
+  position: absolute;
+  width: 1920px;
+  height: 1899px;
+  top: 2784px;
+  left: 0;
+}
+
+.features-page .stars-8 {
+  position: absolute;
+  width: 1920px;
+  height: 1205px;
+  top: 267px;
+  left: 0;
+  background-blend-mode: lighten;
+}
+
+.features-page .feature-description {
+  width: 1516px;
+  top: 0;
+  left: 203px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.features-page .feature-description-2 {
+  width: 1516px;
+  top: 1344px;
+  left: 203px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .FWD-hotel-gui-add {
+  position: absolute;
+  width: 1003px;
+  height: 714px;
+  top: 502px;
+  left: 459px;
+  object-fit: cover;
+}
+
+.features-page .overlap-21 {
+  position: absolute;
+  width: 1920px;
+  height: 1509px;
+  top: -18px;
+  left: 0;
+}
+
+.features-page .stars-9 {
+  position: absolute;
+  width: 1920px;
+  height: 1205px;
+  top: 74px;
+  left: 0;
+  background-blend-mode: lighten;
+}
+
+.features-page .header-background-3 {
+  position: absolute;
+  width: 1920px;
+  height: 173px;
+  top: 15px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.features-page .line-14 {
+  top: 944px;
+  position: absolute;
+  width: 1920px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.features-page .fwd-logo-black-5 {
+  position: absolute;
+  width: 261px;
+  height: 202px;
+  top: 0;
+  left: 16px;
+}
+
+.features-page .navbar-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 37px;
+  position: absolute;
+  top: 101px;
+  left: 538px;
+}
+
+.features-page .text-wrapper-46 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #282727;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.features-page .request-a-demo-7 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 50px;
+  position: absolute;
+  top: 91px;
+  left: 1604px;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #282727;
+}
+
+.features-page .line-15 {
+  top: 191px;
+  position: absolute;
+  width: 1920px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.features-page .page-title-3 {
+  position: absolute;
+  height: 128px;
+  top: 518px;
+  left: 190px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 185px;
+  letter-spacing: 0.10px;
+  line-height: 128px;
+  white-space: nowrap;
+}
+
+.features-page .section-subtitle-2 {
+  width: 944px;
+  top: 696px;
+  color: #ffffff;
+  font-size: 35px;
+  position: absolute;
+  left: 203px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .section-title-7 {
+  width: 1343px;
+  top: 1036px;
+  color: #ffffff;
+  font-size: 60px;
+  position: absolute;
+  left: 203px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .feature-list {
+  width: 1516px;
+  top: 1190px;
+  left: 201px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 40px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.features-page .overlap-22 {
+  position: absolute;
+  width: 1920px;
+  height: 1017px;
+  top: 10121px;
+  left: 0;
+  background-image: url(./img/fwd-footer-bg-1-7.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.features-page .footer-text-5 {
+  position: relative;
+  width: 1826px;
+  height: 959px;
+  left: 50px;
+}
+
+.features-page .footer-links-5 {
+  position: absolute;
+  width: 767px;
+  height: 328px;
+  top: 511px;
+  left: 1083px;
+}
+
+.features-page .footer-product-5 {
+  position: absolute;
+  width: 113px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-resources-5 {
+  position: absolute;
+  width: 140px;
+  top: 0;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-social-5 {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 613px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-what-5 {
+  position: absolute;
+  width: 91px;
+  top: 109px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-how-5 {
+  position: absolute;
+  width: 77px;
+  top: 199px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-why-5 {
+  position: absolute;
+  width: 77px;
+  top: 154px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-features-5 {
+  position: absolute;
+  width: 123px;
+  top: 244px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-benefits-5 {
+  position: absolute;
+  width: 113px;
+  top: 289px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-develop-5 {
+  position: absolute;
+  width: 116px;
+  top: 109px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-start-5 {
+  position: absolute;
+  width: 68px;
+  top: 199px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-license-5 {
+  position: absolute;
+  width: 105px;
+  top: 154px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-download-5 {
+  position: absolute;
+  width: 143px;
+  top: 244px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-documentation-5 {
+  position: absolute;
+  width: 222px;
+  top: 289px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-linkedin-5 {
+  position: absolute;
+  width: 115px;
+  top: 109px;
+  left: 613px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-youtube-5 {
+  position: absolute;
+  width: 124px;
+  top: 154px;
+  left: 613px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .footer-contact-5 {
+  position: absolute;
+  width: 735px;
+  top: 568px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: 60px;
+}
+
+.features-page .footer-connect-5 {
+  position: absolute;
+  width: 854px;
+  top: 401px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 40px;
+  letter-spacing: 0.10px;
+  line-height: 128px;
+  white-space: nowrap;
+}
+
+.features-page .footer-copyright-5 {
+  position: absolute;
+  width: 945px;
+  top: 917px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .fwd-hotel-gui {
+  position: absolute;
+  width: 1003px;
+  height: 714px;
+  top: 4759px;
+  left: 459px;
+  object-fit: cover;
+}
+
+.features-page .section-description {
+  width: 1343px;
+  top: 1518px;
+  color: transparent;
+  font-size: 36px;
+  position: absolute;
+  left: 203px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .text-wrapper-47 {
+  color: #ffffff;
+  letter-spacing: 0.04px;
+}
+
+.features-page .text-wrapper-48 {
+  color: #00f2ff;
+  letter-spacing: 0.04px;
+}
+
+.features-page .overlap-23 {
+  position: absolute;
+  width: 1920px;
+  height: 704px;
+  top: 1684px;
+  left: 0;
+  background-image: url(./img/fwd-slider-bg-1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.features-page .feature-description-3 {
+  width: 1516px;
+  top: 308px;
+  left: 203px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .section-title-8 {
+  position: absolute;
+  width: 1343px;
+  top: 154px;
+  left: 203px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .feature-subtitle {
+  height: 128px;
+  top: 2574px;
+  left: 546px;
+  color: #4aa6d3;
+  font-size: 85px;
+  line-height: 128px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.features-page .feature-description-4 {
+  width: 1516px;
+  top: 5608px;
+  left: 203px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .text-wrapper-49 {
+  letter-spacing: 0.02px;
+}
+
+.features-page .text-wrapper-50 {
+  letter-spacing: 0.02px;
+  text-decoration: underline;
+}
+
+.features-page .overlap-24 {
+  position: absolute;
+  width: 2453px;
+  height: 2555px;
+  top: 6477px;
+  left: -266px;
+  background-image: url(./img/fwd-features-legacy-1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.features-page .rectangle-2 {
+  position: absolute;
+  width: 1582px;
+  height: 2362px;
+  top: 149px;
+  left: 435px;
+}
+
+.features-page .feature-description-5 {
+  width: 1328px;
+  top: 387px;
+  left: 558px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .feature-description-6 {
+  width: 1328px;
+  top: 1525px;
+  left: 558px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .feature-description-7 {
+  width: 1328px;
+  top: 2219px;
+  left: 558px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .feature-title {
+  width: 1343px;
+  top: 233px;
+  left: 558px;
+  color: #ffffff;
+  font-size: 60px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.features-page .feature-title-2 {
+  top: 1371px;
+  position: absolute;
+  width: 1343px;
+  left: 558px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.features-page .feature-title-3 {
+  top: 2065px;
+  position: absolute;
+  width: 1343px;
+  left: 558px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}

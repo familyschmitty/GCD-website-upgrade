@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="start-page.css" />
+  </head>
+  <body>
+    <div class="start-page" data-model-id="96:502">
+      <div class="div-3">
+        <div class="contact-heading">
+          <div class="overlap-group-5">
+            <p class="demo-description">
+              Experience the power of FWD. Request a demo to see how FWD can seamlessly modernize your applications.
+            </p>
+            <div class="demo-title">Request a Demo</div>
+            <a href="FWD-contact.html"
+              ><div class="contact-us"><div class="text-wrapper-39">Contact Us</div></div></a
+            >
+          </div>
+        </div>
+        <div class="overlap-9">
+          <img class="stars-3" src="img/stars-13.png" />
+          <img class="stars-4" src="img/stars-16.png" />
+          <div class="header-background"></div>
+          <img class="line-5" src="img/line-5-4.svg" />
+          <a href="index.html"><img class="fwd-logo-black-2" src="img/fwd-logo-black-1-4.png" /></a>
+          <div class="navbar-3">
+            <a href="what-page.html"><div class="text-wrapper-40">WHAT?</div></a>
+            <a href="why-page.html"><div class="text-wrapper-40">WHY?</div></a>
+            <a href="how-page.html"><div class="text-wrapper-40">HOW?</div></a>
+            <a href="features-page.html"><div class="text-wrapper-40">FEATURES</div></a>
+            <a href="benefits-page.html"><div class="text-wrapper-40">BENEFITS</div></a>
+            <div class="text-wrapper-40">DEVELOP</div>
+            <div class="text-wrapper-40">LICENSE</div>
+            <div class="text-wrapper-40">START</div>
+          </div>
+          <a href="FWD-contact.html"
+            ><div class="request-a-demo-4"><div class="text-wrapper-40">REQUEST A DEMO</div></div></a
+          >
+          <img class="line-6" src="img/line-4-6.svg" />
+          <div class="get-started-title">Get<br />Started</div>
+          <p class="recommendation-text">
+            FWD is a lot to get your head around. This is how we recommend you ease in...
+          </p>
+          <p class="introductory-videos">
+            Watch Some Introductory Videos <br /><br />If you are completely new to FWD, the best way to gain a quick
+            understanding is to watch a few of the demonstration videos.<br />If you have a character mode application,
+            start with the FWD ChUI Demo. If you have a graphical application, start with the FWD GUI Demo. If your
+            application runs primarily in batch mode or in Appserver mode, either demo will do, just to get a feel for
+            some of the ground FWD covers.<br /><br />Next, watch the How FWD Conversion Works video to see the
+            conversion process in action.<br /><br />Download the Code <br /><br />Download the FWD project from the FWD
+            downloads wiki page and follow the instructions there to download its dependencies. Follow the instructions
+            there to build FWD.<br /><br />Build a Sample Project <br /><br />Download either the ChUI demo
+            application or the GUI demo application, depending on which matches your situation. If you have an
+            application with no user interface (just batch or Appserver), you will be better off starting with the ChUI
+            demo.<br /><br />The demo applications serve two purposes. Firstly, they provide working sample projects, so
+            you can see the FWD technology converting a full (albeit small) Progress application, and running the
+            converted result in Java, against a new database. Secondly, they provide a template for you to get your own
+            conversion project up and running.<br /><br />At this point, just get the sample code converting and
+            running, so you know you&#39;ve got a functional baseline project. Also, generate and review the standard
+            reports and look through them. Follow the instructions in the wiki from which you downloaded the respective
+            ChUI or GUI demo application.<br /><br />Read the Documentation <br /><br />So, now you&#39;ve gotten one of
+            the samples successfully converted, built, and running in Java. You probably have a lot of questions and you
+            may be anxious to try this out with your own ABL code. This is a good time to look over the FWD
+            documentation. The best place to start for practical guidance on a new conversion project is the FWD
+            Conversion Handbook. The Methodology chapter contains very similar information to what you are reading now,
+            but with a lot more detail and references for further reading.<br /><br />You also should review carefully
+            the summary of supported ABL features to get an early idea if there are any ABL features you know your
+            application uses which are not yet supported by FWD.<br /><br />Use FWD Analytics to Learn What&#39;s Deep
+            Within Your Code <br /><br />Before you embark on converting your application, you&#39;ll need to do some
+            gap analysis to determine whether your application uses ABL features not yet supported by FWD. Don&#39;t be
+            surprised if it does; FWD covers a lot of ground (most of the basics and a lot more), but the ABL is big and
+            complicated. Any non-trivial application developed over a long period of time is likely either to use some
+            ABL features not yet implemented, or to use some supported features in a way not currently anticipated by
+            FWD.<br /><br />At this phase, you want to produce detailed reports about your application to see what&#39;s
+            inside. Although not yet fully implemented across all features, there is some automated gap analysis
+            directly available in the standard reports produced by the FWD Analytics tools. This will help flag
+            potential problem areas quickly, using a color-coded system to indicate the level of support for certain
+            language features.<br /><br />Using the framework provided by the sample project you built, follow the
+            instructions in the FWD Analytics documentation.<br />Once you have gotten through the front end conversion
+            and report generation processes, review in particular the reports which include automated gap analysis to
+            get a sense for the coverage in FWD for the features your application uses.<br /><br />Try a Proof of
+            Concept Conversion <br /><br />By this time, you&#39;re actually beyond the &#34;Getting Started&#34; phase
+            and well into the implementation of a conversion project. Start small by isolating a well-scoped subset of
+            your code as a proof of concept. Avoid features that are known to not yet be implemented. Generally, the
+            full schema information can be used, but you&#39;ll want to cut out any code with features noted as
+            unsupported in the summary of supported ABL features and which were flagged as unsupported in the
+            reports&#39; gap analysis.<br />Use the framework provided by the sample project you built, and follow the
+            documentation in the FWD Conversion Handbook to convert your reduced code set. As noted earlier, the
+            automated gap analysis is not yet complete, so you likely will still hit unsupported areas. To address
+            these, you can either further pare down your code set to omit these uses, or get help adding these features
+            (see below), if they are critical to your proof of concept.<br /><br />Next Steps <br /><br />To continue
+            with your FWD project from here, we recommend you consult the FWD documentation for further guidance. As
+            noted earlier, the Methodology chapter of the FWD Conversion Handbook is a good next step.<br /><br />Get
+            Help <br /><br />If you get stuck, don&#39;t be discouraged; there are resources available to help you.<br /><br />Register
+            for an account to join the FWD community.<br />Check out the FWD Forums to post a question or search for a
+            topic.<br />If you believe you have found a defect in FWD, would like to request support for a particular
+            feature, or have something to contribute to the project, please refer to the FWD development process wiki
+            page for instructions on submissions.<br />Contact Golden Code Development, the creators of the FWD project,
+            for professional services, including adding features to FWD, assessment work, proofs of concept, full
+            migrations, or anything in between.<br />Follow FWD on social media to get news about the project as it
+            becomes available.
+          </p>
+        </div>
+        <div class="overlap-10">
+          <div class="footer-text-2">
+            <div class="footer-links-2">
+              <div class="footer-product-2">product</div>
+              <div class="footer-resources-2">resources</div>
+              <div class="footer-social-2">social</div>
+              <div class="footer-what-2">What?</div>
+              <div class="footer-how-2">How?</div>
+              <div class="footer-why-2">Why?</div>
+              <div class="footer-features-2">Features</div>
+              <div class="footer-benefits-2">Benefits</div>
+              <div class="footer-develop-2">Develop</div>
+              <div class="footer-start-2">Start</div>
+              <div class="footer-license-2">License</div>
+              <div class="footer-download-2">Download</div>
+              <div class="footer-documentation-2">Documentation</div>
+              <div class="footer-linkedin-2">LinkedIn</div>
+              <div class="footer-youtube-2">YouTube</div>
+            </div>
+            <p class="footer-contact-2">
+              (920) BEYOND4gl&nbsp;&nbsp;<br />(920) 239-6634 <br />fwd@goldencode.com <br />goldencode.com
+            </p>
+            <div class="footer-connect-2">let’s connect</div>
+            <p class="footer-copyright-2">Golden Code Development Corporation ©2025.&nbsp;&nbsp;All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

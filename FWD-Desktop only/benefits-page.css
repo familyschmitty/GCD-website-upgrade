@@ -1,0 +1,690 @@
+.benefits-page {
+  background-color: #282727;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.benefits-page .div-5 {
+  background-color: #282727;
+  overflow: hidden;
+  width: 1920px;
+  height: 6151px;
+  position: relative;
+}
+
+.benefits-page .contact-heading-3 {
+  position: absolute;
+  width: 1922px;
+  height: 880px;
+  top: 4136px;
+  left: 0;
+}
+
+.benefits-page .overlap-group-7 {
+  position: relative;
+  width: 1918px;
+  height: 880px;
+  background-image: url(./img/fwd-request-a-demo-1-4.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.benefits-page .demo-description-2 {
+  width: 727px;
+  top: 399px;
+  font-size: 28px;
+  line-height: normal;
+  position: absolute;
+  left: 207px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.10px;
+}
+
+.benefits-page .demo-title-2 {
+  width: 845px;
+  top: 213px;
+  font-size: 98px;
+  line-height: 128px;
+  white-space: nowrap;
+  position: absolute;
+  left: 207px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.10px;
+}
+
+.benefits-page .contact-us-2 {
+  display: flex;
+  width: 294px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 80px;
+  position: absolute;
+  top: 623px;
+  left: 207px;
+  background-color: #282727;
+  border-radius: 100px;
+}
+
+.benefits-page .text-wrapper-42 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.03px;
+  margin-left: -0.17px;
+  margin-right: -0.17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .overlap-14 {
+  position: absolute;
+  width: 1920px;
+  height: 1351px;
+  top: -18px;
+  left: 0;
+}
+
+.benefits-page .stars-6 {
+  position: absolute;
+  width: 1920px;
+  height: 1205px;
+  top: 74px;
+  left: 0;
+  background-blend-mode: lighten;
+}
+
+.benefits-page .header-background-2 {
+  position: absolute;
+  width: 1920px;
+  height: 173px;
+  top: 15px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.benefits-page .line-11 {
+  width: 1920px;
+  height: 1px;
+  top: 944px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.benefits-page .fwd-logo-black-4 {
+  position: absolute;
+  width: 261px;
+  height: 202px;
+  top: 0;
+  left: 16px;
+}
+
+.benefits-page .navbar-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 37px;
+  position: absolute;
+  top: 101px;
+  left: 538px;
+}
+
+.benefits-page .text-wrapper-43 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #282727;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.benefits-page .request-a-demo-6 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 50px;
+  position: absolute;
+  top: 91px;
+  left: 1604px;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #282727;
+}
+
+.benefits-page .line-12 {
+  width: 1920px;
+  height: 1px;
+  top: 191px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.benefits-page .page-title-2 {
+  position: absolute;
+  height: 128px;
+  top: 518px;
+  left: 190px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 185px;
+  letter-spacing: 0.10px;
+  line-height: 128px;
+  white-space: nowrap;
+}
+
+.benefits-page .section-subtitle {
+  width: 944px;
+  top: 696px;
+  font-size: 35px;
+  position: absolute;
+  left: 203px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .section-title {
+  width: 1343px;
+  top: 1036px;
+  font-size: 60px;
+  position: absolute;
+  left: 203px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .description {
+  position: absolute;
+  width: 1516px;
+  top: 1190px;
+  left: 201px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.10px;
+  line-height: 40px;
+}
+
+.benefits-page .overlap-15 {
+  position: absolute;
+  width: 1920px;
+  height: 1570px;
+  top: 2485px;
+  left: 0;
+}
+
+.benefits-page .stars-7 {
+  position: absolute;
+  width: 1920px;
+  height: 1205px;
+  top: 365px;
+  left: 0;
+  background-blend-mode: lighten;
+}
+
+.benefits-page .section-title-2 {
+  width: 1343px;
+  top: 1245px;
+  left: 203px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .container {
+  position: absolute;
+  width: 959px;
+  height: 1061px;
+  top: 0;
+  left: 960px;
+}
+
+.benefits-page .section-title-3 {
+  width: 756px;
+  top: 156px;
+  left: 218px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .section-title-4 {
+  width: 756px;
+  top: 114px;
+  left: 1085px;
+  color: #282727;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .description-2 {
+  width: 1516px;
+  top: 1399px;
+  left: 201px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 40px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.benefits-page .span {
+  letter-spacing: 0.02px;
+}
+
+.benefits-page .text-wrapper-44 {
+  letter-spacing: 0.02px;
+  text-decoration: underline;
+}
+
+.benefits-page .description-3 {
+  width: 615px;
+  top: 290px;
+  left: 193px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.benefits-page .description-4 {
+  width: 664px;
+  top: 250px;
+  left: 1085px;
+  color: #282727;
+  font-size: 20px;
+  line-height: 26px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.benefits-page .overlap-16 {
+  position: absolute;
+  width: 1920px;
+  height: 1017px;
+  top: 5134px;
+  left: 0;
+  background-image: url(./img/fwd-footer-bg-1-7.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.benefits-page .footer-text-4 {
+  position: relative;
+  width: 1826px;
+  height: 959px;
+  left: 50px;
+}
+
+.benefits-page .footer-links-4 {
+  position: absolute;
+  width: 767px;
+  height: 328px;
+  top: 511px;
+  left: 1083px;
+}
+
+.benefits-page .footer-product-4 {
+  position: absolute;
+  width: 113px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-resources-4 {
+  position: absolute;
+  width: 140px;
+  top: 0;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-social-4 {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 613px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-what-4 {
+  position: absolute;
+  width: 91px;
+  top: 109px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-how-4 {
+  position: absolute;
+  width: 77px;
+  top: 199px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-why-4 {
+  position: absolute;
+  width: 77px;
+  top: 154px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-features-4 {
+  position: absolute;
+  width: 123px;
+  top: 244px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-benefits-4 {
+  position: absolute;
+  width: 113px;
+  top: 289px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-develop-4 {
+  position: absolute;
+  width: 116px;
+  top: 109px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-start-4 {
+  position: absolute;
+  width: 68px;
+  top: 199px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-license-4 {
+  position: absolute;
+  width: 105px;
+  top: 154px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-download-4 {
+  position: absolute;
+  width: 143px;
+  top: 244px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-documentation-4 {
+  position: absolute;
+  width: 222px;
+  top: 289px;
+  left: 301px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-linkedin-4 {
+  position: absolute;
+  width: 115px;
+  top: 109px;
+  left: 613px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-youtube-4 {
+  position: absolute;
+  width: 124px;
+  top: 154px;
+  left: 613px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .footer-contact-4 {
+  position: absolute;
+  width: 735px;
+  top: 568px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: 60px;
+}
+
+.benefits-page .footer-connect-4 {
+  position: absolute;
+  width: 854px;
+  top: 401px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00f2ff;
+  font-size: 40px;
+  letter-spacing: 0.10px;
+  line-height: 128px;
+  white-space: nowrap;
+}
+
+.benefits-page .footer-copyright-4 {
+  position: absolute;
+  width: 945px;
+  top: 917px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .overlap-17 {
+  position: absolute;
+  width: 1920px;
+  height: 1031px;
+  top: 1451px;
+  left: 0;
+  background-image: url(./img/unsplash-wmnsgyafncq.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.benefits-page .overlap-18 {
+  position: absolute;
+  width: 781px;
+  height: 744px;
+  top: 138px;
+  left: 193px;
+}
+
+.benefits-page .overlap-19 {
+  position: absolute;
+  width: 756px;
+  height: 744px;
+  top: 0;
+  left: 25px;
+}
+
+.benefits-page .section-title-5 {
+  width: 756px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .line-13 {
+  width: 1px;
+  height: 722px;
+  top: 22px;
+  left: 742px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.benefits-page .description-5 {
+  width: 615px;
+  top: 134px;
+  left: 0;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}
+
+.benefits-page .section-title-6 {
+  width: 756px;
+  top: 129px;
+  left: 1085px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0.10px;
+  line-height: normal;
+}
+
+.benefits-page .description-6 {
+  width: 664px;
+  top: 265px;
+  left: 1085px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+}

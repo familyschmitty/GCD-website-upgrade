@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Static page builder</title>
+   <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css"/>
+   <script type="text/javascript" src="js/config.js"></script>
+   <script type="text/javascript" src="js/require.js"></script>
+   <script type="text/javascript">
+      require(["jquery", "templates", "delegate", "builder", "FileSaver", "compile", "bootstrap"]);
+   </script>
+</head>
+<body>
+   <ul id="app-tabs-menu" class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#web-templates" id="web-templates-tab"
+         role="tab" data-toggle="tab" aria-controls="web-templates" aria-expanded="true">Web Templates</a></li>
+      <li role="presentation" class="">
+         <a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile"
+         aria-expanded="false">Profile</a></li>
+      <li role="presentation" class="dropdown">
+         <a href="#" id="results-dropdown" class="dropdown-toggle" data-toggle="dropdown"
+            aria-controls="conversion-results-menu" aria-expanded="false">Conversion Results <span class="caret"></span>
+         </a>
+         <ul class="dropdown-menu" aria-labelledby="results-dropdown" id="conversion-results-menu">
+            <li class="">
+               <a href="#dropdown1" role="tab" id="dropdown1-tab"
+               data-toggle="tab" aria-controls="dropdown1" aria-expanded="false">Dropdown1</a>
+            </li>
+            <li>
+               <a href="#dropdown2" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2" aria-expanded="false">Dropdown2</a>
+            </li>
+         </ul>
+      </li>
+   </ul>
+
+   <div id="app-tabs-content" class="tab-content">
+      <div role="tabpanel" class="tab-pane fade active in" id="web-templates" aria-labelledby="web-templates-tab">
+         <form id="builder-options" class="form-horizontal" role="form">
+            <!-- <div class="form-group">
+               <label for="web-base-dir" class="col-sm-2 control-label">Web Base Directory</label>
+               <div class="col-sm-10">
+                  <input type="input" id="web-base-dir" placeholder="../../public"/>
+               </div>
+            </div> -->
+            <div class="form-group">
+               <label for="web-virtual-dir" class="col-sm-2 control-label">Web Virtual Directory</label>
+               <div class="col-sm-10">
+                  <input type="input" id="web-virtual-dir" placeholder="."/>
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="web-page-template-path" class="col-sm-2 control-label">Web Page Template</label>
+               <div class="col-sm-10">
+                  <input type="file" id="web-page-template-path" placeholder="about-gcd.html"/>
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="base-template-path" class="col-sm-2 control-label" >Base Template</label>
+               <div class="col-sm-10">
+                  <input type="file" id="base-template-path" placeholder="index.html">
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="breakpoints-profile" class="col-sm-2 control-label" >Breakpoints Profile</label>
+               <div class="col-sm-2">
+                  <select id="breakpoints-profile" class="form-control">
+                     <option value="0">GCD</option>
+                     <option value="1">FWD</option>
+                  </select>
+               </div>
+            </div>
+            <div class="form-group">
+               <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Convert</button>
+               </div>
+            </div>
+         </form>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+         <form id="web-site-options" class="form-horizontal" role="form">
+            <div class="form-group">
+               <label for="web-site-profile" class="col-sm-2 control-label">Bootstrap media query breakpoints</label>
+               <div class="col-sm-10">
+                  <input id="web-site-profile" placeholder="GCD"/>
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="bootstrap-dir" class="col-sm-2 control-label">Bootstrap virtual directory</label>
+               <div class="col-sm-10">
+                  <input id="bootstrap-dir" placeholder="bootstrap-3.3.7/dist"/>
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="web-site-canonical-url" class="col-sm-2 control-label">Web site canonical url</label>
+               <div class="col-sm-10">
+                  <input id="web-site-canonical-url" placeholder="https://www.goldencode.com"/>
+               </div>
+            </div>
+         </form>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="dropdown1" aria-labelledby="dropdown1-tab">
+          <div>
+            <iframe id="html" src="" width="1200" height="800"></iframe>
+         </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="dropdown2" aria-labelledby="dropdown2-tab">
+      </div>
+   </div>
+
+</body>
+</html>

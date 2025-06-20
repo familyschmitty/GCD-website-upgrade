@@ -1,0 +1,30 @@
+<project name="json" default="all">
+    <property name="src.dir">src</property>
+    <property name="build.dir">bin</property>
+    <property name="resource.dir">${src.dir}/resources</property>
+    <property name="manifest.mf">${resource.dir}/META-INF/MANIFEST.MF</property>
+    <property name="target.package">json.jar</property>
+    <target name="all" description="Clean, compile and deploy" depends="build">
+        <echo>Convert js object module to json string file</echo>
+    </target>
+    <target name="make.dirs" description="Make a project auxillary directories">
+        <mkdir dir="${build.dir}" />
+    </target>
+    <target name="compile" description="Compile project" depends="make.dirs">
+        <javac destdir="${build.dir}" source="1.7" target="1.7" debug="true">
+            <src path="${src.dir}" />
+        </javac>
+    </target>
+    <target name="clean" description="Clean up">
+        <delete dir="${build.dir}" />
+    </target>
+    <target name="build" description="Make jar file" depends="clean, compile">
+        <jar destfile="${target.package}" manifest="${manifest.mf}">
+            <fileset dir="${build.dir}">
+                <include name="**/*.class"/>
+                <exclude name="**/test/Test*.class"/>
+            </fileset>
+            <fileset dir="${resource.dir}"/>
+        </jar>
+    </target>
+</project>

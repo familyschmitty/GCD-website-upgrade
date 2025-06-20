@@ -1,0 +1,88 @@
+
+.gc-background {
+   background-size: 200% auto;
+}
+
+.gc-header-panel {
+   text-transform: uppercase;
+   font-weight: bold;
+   min-height: 50px !important;
+   height: auto !important;
+}
+
+#topNavBar div.container-fluid {
+   height: 50px !important;
+}
+
+.gc-included-content {
+   border-radius: 0px !important;
+   border-top-color: #FFFFFF;
+   background-color: transparent !important;
+   padding-top: 50px;
+   padding-left: 3px;
+   padding-right: 3px;
+   padding-bottom: 0px;
+}
+
+
+.navbar-header {
+   height: 50px;
+}
+
+.navbar-right {
+   padding-right: 3px !important;
+   padding-top: 5px !important;
+}
+
+
+.navbar-brand img {
+   width: 90px !important;
+   height: auto;
+}
+
+.navbar-toggle {
+    background-color: #F0F0F0 !important;
+    border-color: #61606A;
+    padding-right: 10px;
+    margin-right: 3px;
+}
+
+/* navigation panel padding */
+.gc-section {
+   padding-top: 0px !important;
+}
+
+footer .gc-included-content {
+   padding-top:    3px;
+}
+
+.h2, h2 {
+   font-size: 20px !important;
+}
+
+.h3, h3 {
+   font-size: 18px !important;
+}
+
+.h4, h4 {
+   font-size: 16px !important;
+}
+
+.gc-col-text {
+   padding: 1em 0em 1em 0em;
+   font-size: 100%;
+}
+
+.gc-cycle {
+   background-size: 160px;
+}
+
+.gc-card {
+   border-radius: 5px;
+}
+
+.gc-page-summary {
+   font-size: 110%;
+   padding: 1em;
+}
+

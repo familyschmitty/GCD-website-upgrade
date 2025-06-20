@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+   <url>
+      <loc>https://www.beyondabl.com</loc>
+      <lastmod>2017-02-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+      <image:image>
+         <image:loc>https://www.beyondabl.com/images/fwd_logo.png</image:loc>
+         <image:caption>FWD Project</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://www.goldencode.com</loc>
+      <lastmod>2017-01-18</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+      <image:image>
+         <image:loc>https://www.goldencode.com/images/name_logo.png</image:loc>
+         <image:caption>Golden Code Development Corporation</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/what-fwd.html</loc>
+      <lastmod>2017-03-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://www.beyondabl.com/images/wordcloud_cycle.png</image:loc>
+         <image:caption>FWD Word Cloud</image:caption>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.beyondabl.com/images/keep_your_app.png</image:loc>
+         <image:caption>Keep Your Application</image:caption>
+      </image:image>
+   </url>
+      <url>
+      <loc>https://www.beyondabl.com/how-fwd.html</loc>
+      <lastmod>2017-03-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+      <image:image>
+         <image:loc>https://www.beyondabl.com/images/high_level_conversion_process_in_phases_vertical.png</image:loc>
+         <image:caption>FWD High Level Conversion Process</image:caption>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.beyondabl.com/images/runtime_architecture_overview_vertical.png</image:loc>
+         <image:caption>FWD High Level Runtime Environment Design</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/demo-fwd.html</loc>
+      <lastmod>2017-04-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>
+            https://img.youtube.com/vi/BNepKz-rE_M/mqdefault.jpg
+         </video:thumbnail_loc>
+         <video:content_loc>
+            https://www.youtube.com/embed/BNepKz-rE_M
+         </video:content_loc>
+         <video:title>
+            4GL GUI as a First Class Web UI
+         </video:title>
+         <video:description>
+            Demo of FWD's capabilities of making a first class web application from a Progress 4GL GUI/ADM2 application
+         </video:description>
+         <video:duration>
+            2779
+         </video:duration>
+      </video:video>
+      <video:video>
+         <video:thumbnail_loc>
+            https://img.youtube.com/vi/75h4AqcBAgw/mqdefault.jpg
+         </video:thumbnail_loc>
+         <video:content_loc>
+            https://www.youtube.com/embed/75h4AqcBAgw
+         </video:content_loc>
+         <video:title>
+            Running a Converted Progress ABL GUI Application
+         </video:title>
+         <video:description>
+            Demo of a Progress 4GL GUI/ADM2 application converted with FWD and deployed to the web or the desktop
+         </video:description>
+         <video:duration>
+            1806
+         </video:duration>
+      </video:video>
+      <video:video>
+         <video:thumbnail_loc>
+            https://img.youtube.com/vi/uuM2zoYjgWM/mqdefault.jpg
+         </video:thumbnail_loc>
+         <video:content_loc>
+            https://www.youtube.com/embed/uuM2zoYjgWM
+         </video:content_loc>
+         <video:title>
+            Running a Converted Progress ABL ChUI Application
+         </video:title>
+         <video:description>
+            Demo of a Progress 4GL character mode application converted with FWD
+         </video:description>
+         <video:duration>
+            499
+         </video:duration>
+      </video:video>
+      <video:video>
+         <video:thumbnail_loc>
+            https://img.youtube.com/vi/e89FYpjNiQo/mqdefault.jpg
+         </video:thumbnail_loc>
+         <video:content_loc>
+            https://www.youtube.com/embed/e89FYpjNiQo
+         </video:content_loc>
+         <video:title>
+            How FWD Conversion From Progress to Java Works
+         </video:title>
+         <video:description>
+            A walkthrough of the FWD conversion process, which migrates a Progress 4GL application to Java
+         </video:description>
+         <video:duration>
+            662
+         </video:duration>
+      </video:video>
+      <video:video>
+         <video:thumbnail_loc>
+            https://img.youtube.com/vi/I7Z9bFsux4I/mqdefault.jpg
+         </video:thumbnail_loc>
+         <video:content_loc>
+            https://www.youtube.com/embed/I7Z9bFsux4I
+         </video:content_loc>
+         <video:title>
+            Java Source Code Created by FWD from Progress ABL (Part 1)
+         </video:title>
+         <video:description>
+            We begin a tour of the Java source code generated from Progress 4GL code by the FWD conversion process
+         </video:description>
+         <video:duration>
+            1220
+         </video:duration>
+      </video:video>
+      <video:video>
+         <video:thumbnail_loc>
+            https://img.youtube.com/vi/DEqa0zwagAU/mqdefault.jpg
+         </video:thumbnail_loc>
+         <video:content_loc>
+            https://www.youtube.com/embed/DEqa0zwagAU
+         </video:content_loc>
+         <video:title>
+            Java Source Code Created by FWD from Progress ABL (Part 2)
+         </video:title>
+         <video:description>
+            We conclude a tour of the Java source code generated from Progress 4GL code by the FWD conversion process
+         </video:description>
+         <video:duration>
+            1292
+         </video:duration>
+      </video:video>
+   </url>
+   <url>
+      <loc>https://proj.goldencode.com/projects/p2j/wiki/Frequently_Asked_Questions</loc>
+      <lastmod>2017-01-18</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://proj.goldencode.com/projects/p2j/wiki/Downloads</loc>
+      <lastmod>2017-04-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://proj.goldencode.com/projects/p2j/wiki/Documentation</loc>
+      <lastmod>2017-04-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/benefits-fwd.html</loc>
+      <lastmod>2017-02-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/features-fwd.html</loc>
+      <lastmod>2017-04-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/license-fwd.html</loc>
+      <lastmod>2017-04-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/privacy-fwd.html</loc>
+      <lastmod>2017-02-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/legal-fwd.html</loc>
+      <lastmod>2017-02-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+   <url>
+      <loc>https://www.beyondabl.com/develop-fwd.html</loc>
+      <lastmod>2017-02-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+</urlset>

@@ -1,0 +1,105 @@
+
+.gc-background {
+   background-size: 150% auto;
+}
+
+.navbar-nav a, li.dropdown a {
+   text-transform: uppercase;
+   font-weight: 500 !important;
+}
+
+#topNavBar div.container-fluid {
+   height: 60px !important;
+}
+
+.gc-included-content {
+   border-radius: 0px !important;
+   border-top-color: #FFFFFF;
+   background-color: transparent !important;
+   padding-top: 60px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 0px;
+}
+
+.navbar-header {
+   height: 60px;
+}
+
+.navbar-right {
+   padding-right: 5px !important;
+   padding-top: 20px !important;
+}
+
+/*@media (max-width: 781px) {
+   .navbar-brand img {
+      width: 100px !important;
+      height: auto;
+   }
+}
+
+@media (min-width: 781px) and (max-width: 801px) {
+   .navbar-brand img {
+      width: 105px !important;
+      height: auto;
+   }
+}
+
+@media (min-width: 802px) and (max-width: 812px) {*/
+   .navbar-brand img {
+      width: 120px !important;
+      height: auto;
+   }
+/*}*/
+
+.navbar-toggle {
+    background-color: #F0F0F0 !important;
+    border-color: #61606A;
+    padding-right: 10px;
+}
+
+/* navigation panel padding */
+.gc-section {
+   padding-top: 0px !important;
+}
+
+footer .gc-included-content {
+   padding-top: 10px;
+}
+
+.h2, h2 {
+   font-size: 20px !important;
+}
+
+.h3, h3 {
+   font-size: 18px !important;
+}
+
+.h4, h4 {
+   font-size: 16px !important;
+}
+
+.gc-ftr-btn-container {
+   padding: 1em;
+}
+
+.gc-cycle {
+   background-size: 200px;
+}
+
+.gc-col-text {
+   padding: 2em;
+   font-size: 120%;
+}
+
+.gc-page-summary {
+   font-size: 130%;
+   padding: 0.8em 1.5em 0.8em 1.5em;
+}
+
+.gc-card-expand {
+   padding: 0em 1.5em 1.5em 1.5em;
+   font-size: 120%;
+}
+
+

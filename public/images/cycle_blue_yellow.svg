@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="yellow_and_blue_cycling_arrow.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 230.7075 243.74819"
+   height="243.74821"
+   width="230.7075"
+   inkscape:export-filename="/home/ges/yellow_and_blue_cycling_arrow.png"
+   inkscape:export-xdpi="94.330002"
+   inkscape:export-ydpi="94.330002">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="837"
+     inkscape:window-width="1600"
+     showborder="false"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="136.25104"
+     inkscape:cx="-36.646966"
+     inkscape:zoom="1.4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1110.4474,-217.53579)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4136"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(1.1057769,0,0,1.1723961,98.528589,-45.157582)"><flowRegion
+         id="flowRegion4138"><rect
+           id="rect4140"
+           width="480"
+           height="65.714287"
+           x="-860"
+           y="360.93362" /></flowRegion><flowPara
+         id="flowPara4142" /><flowPara
+         id="flowPara4144" /></flowRoot>    <path
+       style="fill:#ffbe00;fill-opacity:1;stroke:none;stroke-width:1.546;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:transform-center-x="-0.74503336"
+       inkscape:transform-center-y="-3.9841099"
+       d="m -896.96473,286.6989 -60.89949,-8.46058 29.46458,-10.63354 c -77.40896,-63.79341 -211.92766,-2.93443 -170.60756,116.34403 -48.8781,-101.1171 67.7301,-200.81311 181.91761,-131.86053 l 6.77454,-34.5525 z"
+       id="path4169"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:1.546;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:transform-center-x="0.74503744"
+       inkscape:transform-center-y="3.9841124"
+       d="m -1093.2225,392.12087 60.8995,8.46058 -29.4646,10.63354 c 77.40904,63.79341 211.9277,2.93443 170.6076,-116.34403 48.8781,101.1171 -67.73006,200.81311 -181.9176,131.86053 l -6.7746,34.5525 z"
+       id="path4169-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>

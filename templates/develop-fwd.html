@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="FWD,Forward,Progress,ABL,4GL,OpenEdge,Java,convert,conversion,migrate,migration,SQL,database,develop,deploy">
+<meta name="description" content="Development options for an ABL application converted with FWD">
+<link rel="canonical" href="https://www.beyondabl.com/develop-fwd.html" />
+<link rel='stylesheet' type='text/css' href='./web-site.css' />
+<link rel='stylesheet' type='text/css' media='screen and (max-width: 479px)' href='./web-site-tn.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 480px) and (max-width: 767px)' href='./web-site-xs.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 768px) and (max-width: 991px)' href='./web-site-sm.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 992px) and (max-width: 1199px)' href='./web-site-md.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 1200px)' href='./web-site-lg.css' />
+<title>Development Options with FWD</title>
+   <noscript>
+      <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css"/>
+      <link rel='stylesheet' type='text/css' href='./web-site.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (max-width: 479px)' href='./web-site-tn.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 480px) and (max-width: 767px)' href='./web-site-xs.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 768px) and (max-width: 991px)' href='./web-site-sm.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 992px) and (max-width: 1199px)' href='./web-site-md.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 1200px)' href='./web-site-lg.css' />
+   </noscript>
+</head>
+<body>
+<section id="Develop">
+
+<div class="row no-margin">
+<div class="col-xs-12 gc-col-text">
+<div class="gc-panel-body gc-page-summary">
+
+<div class="glyphicon glyphicon-edit"/>&nbsp;
+<span class="gc-page-summary-strong">Should future development</span> of your converted application
+be in Java or ABL?<br/><br/>
+The Short Answer... Either, or both. It's up to you.
+</div>
+</div>
+</div>
+
+
+<div class="row no-margin gc-narrative">
+<div class="col-xs-12">
+<div class="gc-col-text">
+
+<h2>Choose Your Language, Deploy With FWD</h2>
+
+<p>
+It is a common misperception that using the FWD technology requires that you shift all future
+development to Java. There are a <a href="#Why" data-link>number of advantages</a> to doing so,
+but this is not the only use case for FWD. Once you have your ABL application successfully
+converting with FWD, you have the option to cut your development over to Java, to continue
+developing with the ABL, or both. You choose what makes sense for your team, your application,
+and your business.
+</p>
+
+<p>
+If you decide to go forward developing your application in Java, it is possible to cut over at any
+time. Developers who wish to continue writing ABL code indefinitely can do so as well. You might
+decide some areas of your development are best suited for one language and some for the other.
+FWD supports this mixed development model.
+</p>
+
+<p>
+This flexibility is made possible by the characteristics of the conversion process:
+<ul>
+<li>
+It is fully automated, so there is never a need to manually edit the converted code to get it
+compiling and running.
+</li>
+<li>
+Conversion runs as a non-interactive batch job and is easily integrated in a larger build process.
+</li>
+<li>
+An entire application can be converted in a batch.
+</li>
+<li>
+The process is repeatable, allowing ABL code changes to be integrated at any time.
+</li>
+<li>
+In most cases, individual files or arbitrary sets of files can be converted on their own,
+which is convenient for development and testing.
+</li>
+</ul>
+</p>
+
+<h2>Why Continue Developing in ABL with FWD?</h2>
+
+<h3>Continuity and Productivity</h3>
+
+<p>
+The decision to use the ABL for ongoing development of an application converted with FWD
+basically comes down to what is best for your situation. Your existing developers are the
+foremost experts in your application. While their application domain expertise will transfer to
+the converted code base, it may ease the overall transition away from the OpenEdge platform if
+they can continue developing in the same language that was used to write the application.
+</p>
+
+<p>
+Many long-time Progress developers are more productive using the ABL than they would be, at
+least initially, developing in Java. For a team of experienced ABL developers, this productivity
+advantage may outweigh the ecosystem benefits of Java. With custom conversion techniques or
+some planned enhancements to ABL syntax and features in FWD, ABL developers can integrate with
+hand-tooled Java code or third party libraries directly from ABL code.
+</p>
+
+<h3>ABL Enhancements</h3>
+
+<p>
+Consider that as an open source project, FWD offers the freedom to enhance the ABL itself.
+Have you ever wanted to actively participate in imagining, designing, implementing and testing
+new language syntax and features? Since FWD is a completely independent implementation of the
+language parser and runtime, this is possible. As long as new features do not conflict with
+existing syntax and functionality, they can be added to the FWD implementation. Please review
+<a href="https://proj.goldencode.com/projects/p2j/wiki/ABL_Enhancements">this wiki page</a> to
+see some of the ideas under consideration to enhance the language, including multi-threading,
+custom user interface controls, layout options that play well with the web, theming/skinning
+features, and more.
+</p>
+
+<h3>Learn How</h3>
+
+<p>
+For more information on staying with the ABL while leveraging FWD to deploy your application, see
+<a href="https://proj.goldencode.com/projects/p2j/wiki/Develop_in_ABL_and_Deploy_in_Java">this
+wiki page</a>. Regardless of the development language you choose, deploying with FWD means you
+realize the business and <a href="#Benefits" data-link>technology benefits</a> of eliminating the
+OpenEdge platform.
+</p>
+
+</div>
+</div>
+</div>
+
+
+</section>
+</body>
+</html>

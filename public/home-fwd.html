@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Open source, automated Progress ABL to Java application conversion and database migration">
+   <meta name="keywords" content="FWD,Forward,Progress,ABL,4GL,OpenEdge,Java,convert,conversion,migrate,migration,SQL,database">
+   <link rel="canonical" href="https://www.beyondabl.com/home-fwd.html">
+   <style type="text/css" media="screen, print">
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-SemiBold.ttf");
+      font-weight: 500;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-Italic.ttf");
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-SemiBoldItalic.ttf");
+      font-weight: 500;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-ExtraBoldItalic.ttf");
+      font-weight: bold;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Architects Daughter";
+      src: url("fonts/Architects_Daughter/ArchitectsDaughter.ttf");
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-Regular.ttf");
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-Bold.ttf");
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-Italic.ttf");
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-BoldItalic.ttf");
+      font-weight: bold;
+      font-style: italic;
+    }
+   </style>
+   <link rel="icon" href="/images/fwd_logo.png">
+   <link rel="apple-touch-icon" href="images/fwd_logo.png">
+   <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+   <script type="text/javascript" src="/js/config.js"></script>
+   <script type="text/javascript" src="/js/require.js"></script>
+   <script type="text/javascript" src="/js/init_static.js"></script>
+   <noscript>
+      <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" type="text/css" href="./web-site.css">
+      <link rel="stylesheet" type="text/css" media="screen and (max-width: 479px)" href="./web-site-tn.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 480px) and (max-width: 767px)" href="./web-site-xs.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 991px)" href="./web-site-sm.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px) and (max-width: 1199px)" href="./web-site-md.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="./web-site-lg.css">
+   </noscript>
+
+   <title>The FWD Project - open source, automated Progress to Java conversion</title>
+<link rel="stylesheet" type="text/css" href="./web-site.css"><link rel="stylesheet" type="text/css" media="screen and (max-width: 479px)" href="./web-site-tn.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 480px) and (max-width: 767px)" href="./web-site-xs.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 991px)" href="./web-site-sm.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 992px) and (max-width: 1199px)" href="./web-site-md.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="./web-site-lg.css"></head>
+<body><section class="gc-section">
+      <div class="container-fluid">
+         <div class="gc-included-content row no-margin" id="Home">
+
+<div class="row no-margin">
+
+<div class="col-sm-6 gc-cycle no-padding animate fadeIn one">
+
+<div class="row no-margin">
+
+<div class="col-xs-12 col-sm-2"></div>
+
+<div class="col-xs-6 col-sm-4 gc-ftr-btn-container animate fadeIn60 one">
+<a class="gc-ftr-btn-link" href="what-fwd.html" data-link="">
+<div class="gc-ftr-btn" style="padding-right: 0em;">
+<div class="glyphicon glyphicon-arrow-right" style="font-size: 175%;"></div>
+<div class="gc-ftr-btn-label">What is FWD?</div>
+</div>
+</a>
+</div>
+
+<div class="col-xs-6 col-sm-4 gc-ftr-btn-container animate fadeIn0 one">
+<a class="gc-ftr-btn-link" href="why-fwd.html" data-link="">
+<div class="gc-ftr-btn" style="padding-left: 0em;">
+<div class="glyphicon glyphicon-question-sign" style="font-size: 175%;"></div>
+<div class="gc-ftr-btn-label">Why FWD?</div>
+</div>
+</a>
+</div>
+
+<div class="col-xs-12 col-sm-2"></div>
+
+</div>
+
+<div class="row no-margin">
+
+<div class="col-xs-4 gc-ftr-btn-container animate fadeIn120 one">
+<a class="gc-ftr-btn-link" href="how-fwd.html" data-link="">
+<div class="gc-ftr-btn" style="padding-left: 0em;">
+<div class="glyphicon glyphicon-cog" style="font-size: 175%;"></div>
+<div class="gc-ftr-btn-label">How it Works</div>
+</div>
+</a>
+</div>
+
+<div class="col-xs-4 gc-ftr-btn-container animate fadeIn two">
+<a class="gc-ftr-btn-link" href="start-fwd.html" data-link="">
+<div class="gc-ftr-btn">
+<div class="glyphicon glyphicon-road" style="font-size: 175%;"></div>
+<div class="gc-ftr-btn-label">Get Started</div>
+</div>
+</a>
+</div>
+
+<div class="col-xs-4 gc-ftr-btn-container animate fadeIn300 one">
+<a class="gc-ftr-btn-link" href="demo-fwd.html" data-link="">
+<div class="gc-ftr-btn" style="padding-right: 0em;">
+<div class="glyphicon glyphicon-facetime-video" style="font-size: 175%;"></div>
+<div class="gc-ftr-btn-label">Take a Look</div>
+</div>
+</a>
+</div>
+
+</div>
+
+<div class="row no-margin">
+
+<div class="col-xs-12 col-sm-2"></div>
+
+<div class="col-xs-6 col-sm-4 gc-ftr-btn-container animate fadeIn180 one">
+<a class="gc-ftr-btn-link" href="features-fwd.html" data-link="">
+<div class="gc-ftr-btn" style="padding-right: 0em;">
+<div class="glyphicon glyphicon-list-alt" style="font-size: 175%;"></div>
+<div class="gc-ftr-btn-label">Features</div>
+</div>
+</a>
+</div>
+
+<div class="col-xs-6 col-sm-4 gc-ftr-btn-container animate fadeIn240 one">
+<a class="gc-ftr-btn-link" href="benefits-fwd.html" data-link="">
+<div class="gc-ftr-btn" style="padding-left: 0em;">
+<div class="glyphicon glyphicon-thumbs-up" style="font-size: 175%;"></div>
+<div class="gc-ftr-btn-label">Benefits</div>
+</div>
+</a>
+</div>
+
+<div class="col-xs-12 col-sm-2"></div>
+
+</div>
+
+</div>
+
+<div class="row no-margin">
+
+<div class="col-xs-12 col-sm-6">
+<div class="gc-page-summary">
+<div class="gc-def-1 gc-serif">FWD</div>
+<div class="gc-def-2 gc-serif">(for·ward)&nbsp; [<span style="font-weight: bold;">fawr</span>-werd]</div>
+<div class="gc-serif">adverb</div>
+<div class="gc-def-3 gc-serif">toward or at a place, point, or time in advance; onward; ahead<sup>1</sup></div>
+<div class="gc-serif">adjective</div>
+<div class="gc-def-3 gc-serif">of or relating to the future<sup>1</sup></div>
+<div class="gc-serif">noun</div>
+<div class="gc-def-3 gc-serif">open source software which performs 100% automated, source-to-source
+conversion of a Progress ABL application into a compatible, drop-in replacement, written in Java</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="row no-margin">
+<div class="col-xs-12 no-padding" style="color: #b0b0b0; text-align: center;">
+1. "forward". Dictionary.com Unabridged. Random House, Inc. 1 Dec. 2016. &lt;Dictionary.com http://www.dictionary.com/browse/forward&gt;.
+</div>
+</div>
+
+</div>
+      </div>
+   </section><nav id="topNavBar" class="navbar navbar-fixed-top gc-header-panel">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div class="navbar-brand active"><a data-link="" href="home-fwd.html">
+               <img src="images/fwd_logo.png" alt="FWD Project" class="img-responsive logo animate fadeIn0 one">
+            </a>
+         
+      </div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavMenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="topNavMenu">
+      <ul class="nav navbar-nav navbar-right"><li>
+               <a data-link="" href="what-fwd.html">What?</a>
+            </li><li>
+               <a data-link="" href="why-fwd.html">Why?</a>
+            </li><li>
+               <a data-link="" href="how-fwd.html">How?</a>
+            </li><li>
+               <a data-link="" href="demo-fwd.html">Demo</a>
+            </li><li>
+               <a data-link="" href="features-fwd.html">Features</a>
+            </li><li>
+               <a data-link="" href="benefits-fwd.html">Benefits</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="develop-fwd.html">Develop</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="license-fwd.html">License</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="start-fwd.html">Start</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Frequently_Asked_Questions">FAQ</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="https://www.goldencode.com">Help</a>
+            </li>
+         
+         <li class="visible-sm visible-md dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+               More<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu"><li><a data-link="" href="develop-fwd.html">Develop</a></li><li><a data-link="" href="license-fwd.html">License</a></li><li><a data-link="" href="start-fwd.html">Start</a></li><li><a data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Frequently_Asked_Questions">FAQ</a></li><li><a data-link="" href="https://www.goldencode.com">Help</a></li>
+               
+            </ul>
+         </li>
+        <li>
+            
+         </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<noscript>
+   <nav class="navbar navbar-fixed-top gc-header-panel">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <div class="navbar-brand">
+               <a href="https://www.beyondabl.com">
+                  <img src="images/fwd_logo.png" alt="FWD Project" class="img-responsive logo animate fadeIn0 one">
+               </a>
+            </div>
+         </div>
+      </div>
+   </nav>
+</noscript>
+<noscript>
+   <section class="gc-section">
+      <div class="container-fluid">
+         <div class="gc-included-content row no-margin">
+            <div class="gc-page-summary">
+            <p>
+            FWD is open source software which performs automated, source-to-source conversion
+            of a Progress ABL application into a compatible, drop-in replacement, written in Java.
+            </p>
+            <p style="font-weight: bold; padding-top: 2em;">
+            This site requires JavaScript. Please enable JavaScript in your browser for this site.
+            </p>
+            </div>
+         </div>
+      </div>
+   </section>
+</noscript>
+<template id="section-template">
+   <section class="hide gc-section">
+      <div class="container-fluid">
+         <div class="gc-included-content row no-margin"></div>
+      </div>
+   </section>
+</template>
+<template id="footer-template">
+   <footer class="hide gc-section gc-footer row no-margin">
+      <div class="container-fluid">
+         <div class="gc-included-content"></div>
+      </div>
+   </footer>
+</template>
+
+
+<footer class="gc-section gc-footer row no-margin">
+      <div class="container-fluid">
+         <div class="gc-included-content" id="SiteMapContact">
+
+<div class="row no-margin">
+
+
+<!-- Featured column -->
+
+<div class="col-sm-5 col-md-5 col-lg-4 gc-text">
+<h5 class="gc-footer-label">Featured</h5>
+
+<div id="carousel-featured" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-featured" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-featured" data-slide-to="1"></li>
+    <li data-target="#carousel-featured" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a href="what-fwd.html#analytics" data-link="">
+      <img src="images/fwd_analytics_sml.png" alt="4GL Source Code Analytics">
+      </a>
+      <div class="carousel-caption">4GL Source Code Analytics</div>
+    </div>
+    <div class="item">
+      <a href="features-fwd.html#direct-to-web" data-link="">
+      <img src="images/hotel_gui_integration_embedded_sml.png" alt="4GL GUI Direct-to-Web Deployment">
+      </a>
+      <div class="carousel-caption">4GL GUI Direct-to-Web</div>
+    </div>
+    <div class="item">
+      <a href="demo-fwd.html#hotel-chui-video" data-link="">
+      <img src="images/hotel_chui_sml.png" alt="4GL Character Mode UI">
+      </a>
+      <div class="carousel-caption">4GL Character Mode UI</div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-featured" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-featured" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div> <!-- end featured column -->
+
+
+<!-- Site map column -->
+
+<div class="col-sm-3 col-md-3 col-lg-4">
+
+<h5 class="gc-footer-label">Site Map</h5>
+<!--  site map component -->
+<nav>
+   <div id="siteMap" class="row no-margin"><div class="col1 active">
+            <a class="gc-text" data-link="" href="home-fwd.html">Home</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="what-fwd.html">What?</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="why-fwd.html">Why?</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="how-fwd.html">How?</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="demo-fwd.html">Demo</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="features-fwd.html">Features</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="benefits-fwd.html">Benefits</a>
+         </div>
+         <div class="col2 top4">
+            <a class="gc-text" data-link="" href="develop-fwd.html">Develop</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="license-fwd.html">License</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="start-fwd.html">Start</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Frequently_Asked_Questions">FAQ</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://www.goldencode.com">Help</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Downloads">Download</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Documentation">Documentation</a>
+         </div>
+         
+      
+      <div>
+         
+      </div>
+   </div>
+</nav>
+
+</div> <!-- end site map column -->
+
+
+<!-- General/Contact info column -->
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+
+<h5 class="gc-footer-label">Need Help?</h5>
+<div>
+<div class="gc-text"><span class="glyphicon glyphicon-globe"></span>&nbsp;
+<a class="gc-text" href="https://www.goldencode.com">www.goldencode.com</a></div>
+<div class="gc-text"><span class="glyphicon glyphicon-phone"></span>&nbsp;
++1.920.BEYOND4gl (+1.920.239.6634)</div>
+<div class="gc-text"><span class="glyphicon glyphicon-envelope"></span>&nbsp;
+<a class="gc-text" href="mailto:fwd@goldencode.com?subject=FWD Inquiry">fwd@goldencode.com</a></div>
+</div>
+
+<h5 class="gc-footer-label">Connect</h5>
+<div style="margin-bottom: -15px;">
+<a href="https://www.linkedin.com/company/fwd-project" target="_blank">
+<img class="gc-social-link" src="images/linkedin.svg"></a>
+<!-- TODO: change to custom URL when available -->
+<a href="https://www.youtube.com/channel/UCk3pga7EKxAQVOV_CiYOR7g" target="_blank">
+<img class="gc-social-link" src="images/youtube.svg"></a>
+</div>
+
+<h5 class="gc-footer-label">FWD Project</h5>
+<div>
+<p>
+<span><a class="gc-text" href="privacy-fwd.html" data-link="">Privacy Policy</a></span> |
+<span><a class="gc-text" href="legal-fwd.html" data-link="">Legal</a></span>
+</p>
+</div>
+<div>© 2004-2024 Golden Code Development Corporation</div>
+
+</div> <!-- end general/contact info column -->
+
+
+</div> <!-- end footer row -->
+
+
+<template data-script="./site-map-fwd-script.js"></template>
+
+
+</div>
+      </div>
+   </footer></body>
+</html>

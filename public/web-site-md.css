@@ -1,0 +1,80 @@
+
+.gc-background {
+   background-size: 125% auto;
+}
+
+#topNavBar div.container-fluid {
+   height: 60px !important;
+}
+
+.gc-included-content {
+   border-radius: 0px !important;
+   border-top-color: #FFFFFF;
+   background-color: transparent !important;
+   padding-top: 72px; /* navigation panel padding */
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-bottom: 0px;
+}
+
+.navbar-header {
+   height: 72px;
+}
+
+.navbar-right {
+   padding-right: 1px !important;
+   padding-top: 22px !important;
+}
+
+.navbar-brand img {
+   width: 130px !important;
+   height: auto;
+}
+
+.gc-section {
+   padding-top: 0px !important;
+}
+
+footer .gc-included-content {
+   padding-top: 10px;
+}
+
+.gc-col-text {
+   padding: 2.5em;
+   font-size: 130%;
+}
+
+.gc-page-summary {
+   font-size: 140%;
+   padding: 1em 2em 1em 2em;
+}
+
+.gc-card-expand {
+   padding: 0em 1.8em 1.8em 1.8em;
+   font-size: 130%;
+}
+
+.gc-ftr-btn-container {
+   padding: 1.2em;
+}
+
+.gc-cycle {
+   background-size: 220px;
+}
+
+.gc-card-container {
+   padding: 1.4em;
+}
+
+.gc-h1 {
+   font-size: 1.6em;
+}
+
+.gc-h2 {
+   font-size: 1.4em;
+}
+
+.gc-h3 {
+   font-size: 1.2em;
+}
+

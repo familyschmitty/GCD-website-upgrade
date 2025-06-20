@@ -1,0 +1,17 @@
+/** application data for site-map-fwd.html view */
+{
+   "pages"    :
+                [
+                  { "id":1,
+                    "hash":"#Privacy",
+                    "url":"privacy-fwd.html" },
+                  { "id":2,
+                    "hash":"#Legal",
+                    "url":"legal-fwd.html" },
+                  { "id":3,
+                    "hash":"#PUG2024",
+                    "url":"pug-challenge-2024.html" }
+                ],
+   "section" : "section-template",
+   "footer"  : "footer-template"
+}

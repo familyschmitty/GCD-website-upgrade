@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css"/>
+<link rel='stylesheet' type='text/css' href='./web-site.css' />
+<link rel='stylesheet' type='text/css' media='screen and (max-width: 479px)' href='./web-site-tn.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 480px) and (max-width: 767px)' href='./web-site-xs.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 768px) and (max-width: 991px)' href='./web-site-sm.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 992px) and (max-width: 1199px)' href='./web-site-md.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 1200px)' href='./web-site-lg.css' />
+<title>Contact</title>
+   <noscript>
+      <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css"/>
+      <link rel='stylesheet' type='text/css' href='./web-site.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (max-width: 479px)' href='./web-site-tn.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 480px) and (max-width: 767px)' href='./web-site-xs.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 768px) and (max-width: 991px)' href='./web-site-sm.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 992px) and (max-width: 1199px)' href='./web-site-md.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 1200px)' href='./web-site-lg.css' />
+   </noscript>
+</head>
+<body>
+<section id="SiteMapContact">
+
+<div class="row no-margin">
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+
+<h5 class="gc-footer-label">Need Help?</h5>
+<div>
+<div class="gc-text"><span class="glyphicon glyphicon-globe"/>&nbsp;
+<a class="gc-text" href="https://www.goldencode.com">www.goldencode.com</a></div>
+<div class="gc-text"><span class="glyphicon glyphicon-phone"/>&nbsp;
++1.920.BEYOND4gl (+1.920.239.6634)</div>
+<div class="gc-text"><span class="glyphicon glyphicon-envelope"/>&nbsp;
+<a class="gc-text" href="mailto:fwd@goldencode.com?subject=FWD Inquiry">fwd@goldencode.com</a></div>
+</div>
+
+<h5 class="gc-footer-label">Connect</h5>
+<div>
+<a href="https://www.facebook.com/beyondabl" target="_blank">
+<img class="gc-social-link" src="images/facebook.svg"></a>
+<a href="https://plus.google.com/+beyondabl" target="_blank">
+<img class="gc-social-link" src="images/google-plus.svg"></a>
+<a href="https://twitter.com/beyondabl" target="_blank">
+<img class="gc-social-link" src="images/twitter.svg"></a>
+<a href="https://www.linkedin.com/company/fwd-project" target="_blank">
+<img class="gc-social-link" src="images/linkedin.svg"></a>
+<!-- TODO: change to custom URL when available -->
+<a href="https://www.youtube.com/channel/UCk3pga7EKxAQVOV_CiYOR7g" target="_blank">
+<img class="gc-social-link" src="images/youtube.svg"></a>
+</div>
+
+<h5 class="gc-footer-label">FWD Project</h5>
+<div>
+<p>
+<span><a class="gc-text" href="privacy-fwd.html" data-link>Privacy Policy</a></span> |
+<span><a class="gc-text" href="legal-fwd.html" data-link>Legal</a></span>
+</p>
+</div>
+<div>&copy; 2004-2017 Golden Code Development Corporation</div>
+</div>
+
+</div>
+
+<div class="col-sm-3 col-md-3 col-lg-4">
+<h5 class="gc-footer-label">Site Map</h5>
+<!--  site map component -->
+<nav>
+   <div id="siteMap" class="row no-margin">
+      <template data-binding="pages" data-if-exist="site-map-menu">
+         <div data-binding='{"class":"site-map-menu.class"}' data-if-not-exist="site-map-menu.dropdown">
+            <a class="gc-text" data-binding='{"href":"url","text":"site-map-menu.name"}' data-link></a>
+         </div>
+         <div data-binding='{"class":"site-map-menu.class"}' data-if-exist="site-map-menu.dropdown">
+            <a class="dropdown-toggle gc-text" data-toggle="collapse" data-target="#collapse1" 
+               data-binding='{"text":"site-map-menu.name"}'>
+                <span class="caret"></span>
+            </a>
+            <div class="collapse" id="collapse1">
+               <template data-binding="site-map-menu.dropdown" data-if-exist="name">
+                  <div><a class="gc-text" data-binding='{"href":"url","text":"name"}'></a></div>
+               </template>
+            </div>
+         </div>
+      </template>
+      <div>
+         <template data-binding="#siteMap" data-type="jQuery" data-if-exist=".view-more">
+            <a class="gc-text more-sections" href="javascript:void(0);"
+               onclick="mobileApp.viewMoreSections('siteMap', this, 'hide');"></a>
+         </template>
+      </div>
+   </div>
+</nav>
+</div>
+
+<div class="col-sm-5 col-md-5 col-lg-4 gc-text">
+<h5 class="gc-footer-label">Featured</h5>
+<div>
+<p>
+Test
+<!--
+<span><a class="gc-text" href="privacy-fwd.html" data-link>Privacy Policy</a></span> |
+<span><a class="gc-text" href="legal-fwd.html" data-link>Legal</a></span>
+-->
+</p>
+</div>
+<div>&copy; 2004-2017 Golden Code Development Corporation</div>
+</div>
+</div>
+</section>
+</body>
+</html>

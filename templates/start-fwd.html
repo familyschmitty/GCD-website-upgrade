@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="FWD,Forward,Progress,ABL,4GL,OpenEdge,Java,convert,conversion,migrate,migration,SQL,database,start,guide">
+<meta name="description"
+      content="A guide to getting started with your Progress to Java migration using FWD">
+<link rel="canonical" href="https://www.beyondabl.com/start-fwd.html" />
+<link rel='stylesheet' type='text/css' href='./web-site.css' />
+<link rel='stylesheet' type='text/css' media='screen and (max-width: 479px)' href='./web-site-tn.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 480px) and (max-width: 767px)' href='./web-site-xs.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 768px) and (max-width: 991px)' href='./web-site-sm.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 992px) and (max-width: 1199px)' href='./web-site-md.css' />
+<link rel='stylesheet' type='text/css' media='screen and (min-width: 1200px)' href='./web-site-lg.css' />
+<title>Getting Started with FWD</title>
+   <noscript>
+      <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css"/>
+      <link rel='stylesheet' type='text/css' href='./web-site.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (max-width: 479px)' href='./web-site-tn.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 480px) and (max-width: 767px)' href='./web-site-xs.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 768px) and (max-width: 991px)' href='./web-site-sm.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 992px) and (max-width: 1199px)' href='./web-site-md.css' />
+      <link rel='stylesheet' type='text/css' media='screen and (min-width: 1200px)' href='./web-site-lg.css' />
+   </noscript>
+</head>
+<body>
+<section id="Start">
+
+<div class="row no-margin">
+<div class="col-xs-12 gc-col-text">
+<div class="gc-panel-body gc-page-summary">
+<p>
+<div class="glyphicon glyphicon-road"/>&nbsp;
+<span class="gc-page-summary-strong">Getting started</span> with FWD
+</p>
+<p>
+FWD is a lot to get your head around. This is how we recommend you ease in...
+</p>
+</div>
+</div>
+</div>
+
+
+<div class="row no-margin gc-narrative">
+<div class="col-xs-12">
+<div class="gc-col-text">
+
+<dt>Watch Some Introductory Videos <span class="glyphicon glyphicon-facetime-video"/></dt>
+<dd class="gc-vert-pad">
+<p>
+If you are completely new to FWD, the best way to gain a quick understanding is to watch a few of
+the <a href="#Demo" data-link>demonstration videos</a>.
+</p>
+<p>
+If you have a character mode application, start with the <i>FWD ChUI Demo</i>. If you have a
+graphical application, start with the <i>FWD GUI Demo</i>. If your application runs primarily in
+batch mode or in Appserver mode, either demo will do, just to get a feel for some of the ground
+FWD covers.
+</p>
+<p>
+Next, watch the <i>How FWD Conversion Works</i> video to see the conversion process in action.
+</p>
+</dd>
+
+<dt>Download the Code <span class="glyphicon glyphicon-download-alt"/></dt>
+<dd class="gc-vert-pad">
+<p>
+Download the FWD project from the <a href="https://proj.goldencode.com/projects/p2j/wiki/Downloads"
+target="_blank">FWD downloads wiki page</a> and follow the instructions there to download its
+dependencies. Follow the instructions there to build FWD.
+</p>
+</dd>
+
+<dt>Build a Sample Project <span class="glyphicon glyphicon-wrench"/></dt>
+<dd class="gc-vert-pad">
+<p>
+Download either the <a href="https://proj.goldencode.com/projects/p2j/wiki/Hotel_ChUI_Demo_Application">
+ChUI demo application</a> or the <a
+href="https://proj.goldencode.com/projects/p2j/wiki/Hotel_GUI_Demo_Application">GUI demo
+application</a>, depending on which matches your situation. If you have an application with no
+user interface (just batch or Appserver), you will be better off starting with the ChUI demo.
+</p>
+<p>
+The demo applications serve two purposes. Firstly, they provide working sample projects, so you
+can see the FWD technology converting a full (albeit small) Progress application, and running the
+converted result in Java, against a new database. Secondly, they provide a template for you to
+get your own conversion project up and running.
+</p>
+<p>
+At this point, just get the sample code converting and running, so you know you've got a
+functional baseline project. Also, generate and review the standard reports and look through them.
+Follow the instructions in the wiki from which you downloaded the respective ChUI or GUI demo
+application.
+</p>
+</dd>
+
+<dt>Read the Documentation <span class="glyphicon glyphicon-book"/></dt>
+<dd class="gc-vert-pad">
+<p>
+So, now you've gotten one of the samples successfully converted, built, and running in Java. You
+probably have a lot of questions and you may be anxious to try this out with your own ABL code.
+This is a good time to look over the <a
+href="https://proj.goldencode.com/projects/p2j/wiki/Documentation">FWD documentation</a>. The
+best place to start for practical guidance on a new conversion project is the <a class="gc-book"
+href="https://proj.goldencode.com/projects/p2j/wiki/Conversion_Handbook">FWD Conversion
+Handbook</a>. The
+<a href="https://proj.goldencode.com/projects/p2j/wiki/Chapter_2_Methodology">Methodology</a>
+chapter contains very similar information to what you are reading now, but with a lot more
+detail and references for further reading.
+</p>
+<p>
+You also should review carefully the <a
+href="https://proj.goldencode.com/projects/p2j/wiki/Supported_ABL_Features">summary of
+supported ABL features</a> to get an early idea if there are any ABL features you know your
+application uses which are not yet supported by FWD.
+</p>
+</dd>
+
+<dt>Use FWD Analytics to Learn What's Deep Within Your Code
+<span class="glyphicon glyphicon-info-sign"/></dt>
+<dd class="gc-vert-pad">
+<p>
+Before you embark on converting your application, you'll need to do some gap analysis to determine
+whether your application uses ABL features not yet supported by FWD. Don't be surprised if it does;
+FWD covers a lot of ground (most of the basics and a lot more), but the ABL is big and complicated.
+Any non-trivial application developed over a long period of time is likely either to use some ABL
+features not yet implemented, or to use some supported features in a way not currently anticipated
+by FWD.
+</p>
+<p>
+At this phase, you want to produce detailed reports about your application to see what's inside.
+Although not yet fully implemented across all features, there is some automated gap analysis
+directly available in the standard reports produced by the FWD Analytics tools. This will help
+flag potential problem areas quickly, using a color-coded system to indicate the level of support
+for certain language features.
+</p>
+<p>
+Using the framework provided by the sample project you built, follow the instructions in the
+<a class="gc-book" href="https://proj.goldencode.com/projects/p2j/wiki/Code_Analytics">FWD
+Analytics documentation</a>.
+</p>
+<p>
+Once you have gotten through the front end conversion and report generation processes, review in
+particular the reports which include automated gap analysis to get a sense for the coverage in
+FWD for the features your application uses.
+</p>
+</dd>
+
+<dt>Try a Proof of Concept Conversion <span class="glyphicon glyphicon-refresh"/></dt>
+<dd class="gc-vert-pad">
+<p>
+By this time, you're actually beyond the "Getting Started" phase and well into the implementation
+of a conversion project. Start small by isolating a well-scoped subset of your code as a proof of
+concept. Avoid features that are known to not yet be implemented. Generally, the full schema
+information can be used, but you'll want to cut out any code with features noted as unsupported in the
+<a href="https://proj.goldencode.com/projects/p2j/wiki/Supported_ABL_Features">summary of
+supported ABL features</a> and which were flagged as unsupported in the reports' gap analysis.
+</p>
+<p>
+Use the framework provided by the sample project you built, and follow the documentation in the
+FWD Conversion Handbook to convert your reduced code set. As noted earlier, the automated gap
+analysis is not yet complete, so you likely will still hit unsupported areas. To address these,
+you can either further pare down your code set to omit these uses, or get help adding these
+features (see below), if they are critical to your proof of concept.
+</p>
+</dd>
+
+<dt>Next Steps <span class="glyphicon glyphicon-expand"/></dt>
+<dd class="gc-vert-pad">
+<p>
+To continue with your FWD project from here, we recommend you consult the
+<a href="https://proj.goldencode.com/projects/p2j/wiki/Documentation">FWD documentation</a> for
+further guidance. As noted earlier, the <a class="gc-book"
+href="https://proj.goldencode.com/projects/p2j/wiki/Chapter_2_Methodology">Methodology</a>
+chapter of the <span class="gc-book">FWD Conversion Handbook</span> is a good next step.
+</p>
+
+<dt>Get Help <span class="glyphicon glyphicon-question-sign"/></dt>
+<dd class="gc-vert-pad">
+<p>
+If you get stuck, don't be discouraged; there are resources available to help you.
+<ul>
+<li><a href="https://proj.goldencode.com/account/register" target="_blank">Register for an
+account</a> to join the FWD community.
+<li>Check out the <a href="https://proj.goldencode.com/projects/p2j/boards" target="_blank">FWD
+Forums</a> to post a question or search for a topic.</li>
+<li>If you believe you have found a defect in FWD, would like to request support for a particular
+feature, or have something to contribute to the project, please refer to the <a
+href="https://proj.goldencode.com/projects/p2j/wiki/Development_Process" target="_blank">FWD
+development process wiki page</a> for instructions on submissions.</li>
+<li>Contact <a href="https://www.goldencode.com" _target="_blank">Golden Code Development</a>,
+the creators of the FWD project, for <a href="https://www.goldencode.com/index.html?#Services"
+target="_blank">professional services</a>, including adding features to FWD, assessment work,
+proofs of concept, full migrations, or anything in between.</li>
+<li><a href="#SiteMapContact" data-link>Follow FWD on social media</a> to get news about the
+project as it becomes available.</li>
+</ul>
+</p>
+</dd>
+
+</div>
+</div>
+</div>
+
+</section>
+</body>
+</html>

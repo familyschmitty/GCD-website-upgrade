@@ -1,0 +1,527 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="A guide to getting started with your Progress to Java migration using FWD">
+   <meta name="keywords" content="FWD,Forward,Progress,ABL,4GL,OpenEdge,Java,convert,conversion,migrate,migration,SQL,database,start,guide">
+   <link rel="canonical" href="https://www.beyondabl.com/start-fwd.html">
+   <style type="text/css" media="screen, print">
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-SemiBold.ttf");
+      font-weight: 500;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-Italic.ttf");
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-SemiBoldItalic.ttf");
+      font-weight: 500;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nunito Sans";
+      src: url("fonts/Nunito_Sans/NunitoSans-ExtraBoldItalic.ttf");
+      font-weight: bold;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Architects Daughter";
+      src: url("fonts/Architects_Daughter/ArchitectsDaughter.ttf");
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-Regular.ttf");
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-Bold.ttf");
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-Italic.ttf");
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Lora";
+      src: url("fonts/Lora/Lora-BoldItalic.ttf");
+      font-weight: bold;
+      font-style: italic;
+    }
+   </style>
+   <link rel="icon" href="/images/fwd_logo.png">
+   <link rel="apple-touch-icon" href="images/fwd_logo.png">
+   <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+   <script type="text/javascript" src="/js/config.js"></script>
+   <script type="text/javascript" src="/js/require.js"></script>
+   <script type="text/javascript" src="/js/init_static.js"></script>
+   <noscript>
+      <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" type="text/css" href="./web-site.css">
+      <link rel="stylesheet" type="text/css" media="screen and (max-width: 479px)" href="./web-site-tn.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 480px) and (max-width: 767px)" href="./web-site-xs.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 991px)" href="./web-site-sm.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px) and (max-width: 1199px)" href="./web-site-md.css">
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="./web-site-lg.css">
+   </noscript>
+
+   <title>Getting Started with FWD</title>
+<link rel="stylesheet" type="text/css" href="./web-site.css"><link rel="stylesheet" type="text/css" media="screen and (max-width: 479px)" href="./web-site-tn.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 480px) and (max-width: 767px)" href="./web-site-xs.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 991px)" href="./web-site-sm.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 992px) and (max-width: 1199px)" href="./web-site-md.css"><link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="./web-site-lg.css"></head>
+<body><section class="gc-section">
+      <div class="container-fluid">
+         <div class="gc-included-content row no-margin" id="Start">
+
+<div class="row no-margin">
+<div class="col-xs-12 gc-col-text">
+<div class="gc-panel-body gc-page-summary">
+<p>
+</p><div class="glyphicon glyphicon-road"></div>&nbsp;
+<span class="gc-page-summary-strong">Getting started</span> with FWD
+<p></p>
+<p>
+FWD is a lot to get your head around. This is how we recommend you ease in...
+</p>
+</div>
+</div>
+</div>
+
+
+<div class="row no-margin gc-narrative">
+<div class="col-xs-12">
+<div class="gc-col-text">
+
+<dt>Watch Some Introductory Videos <span class="glyphicon glyphicon-facetime-video"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+If you are completely new to FWD, the best way to gain a quick understanding is to watch a few of
+the <a href="demo-fwd.html" data-link="">demonstration videos</a>.
+</p>
+<p>
+If you have a character mode application, start with the <i>FWD ChUI Demo</i>. If you have a
+graphical application, start with the <i>FWD GUI Demo</i>. If your application runs primarily in
+batch mode or in Appserver mode, either demo will do, just to get a feel for some of the ground
+FWD covers.
+</p>
+<p>
+Next, watch the <i>How FWD Conversion Works</i> video to see the conversion process in action.
+</p>
+</dd>
+
+<dt>Download the Code <span class="glyphicon glyphicon-download-alt"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+Download the FWD project from the <a href="https://proj.goldencode.com/projects/p2j/wiki/Downloads" target="_blank">FWD downloads wiki page</a> and follow the instructions there to download its
+dependencies. Follow the instructions there to build FWD.
+</p>
+</dd>
+
+<dt>Build a Sample Project <span class="glyphicon glyphicon-wrench"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+Download either the <a href="https://proj.goldencode.com/projects/p2j/wiki/Hotel_ChUI_Demo_Application">
+ChUI demo application</a> or the <a href="https://proj.goldencode.com/projects/p2j/wiki/Hotel_GUI_Demo_Application">GUI demo
+application</a>, depending on which matches your situation. If you have an application with no
+user interface (just batch or Appserver), you will be better off starting with the ChUI demo.
+</p>
+<p>
+The demo applications serve two purposes. Firstly, they provide working sample projects, so you
+can see the FWD technology converting a full (albeit small) Progress application, and running the
+converted result in Java, against a new database. Secondly, they provide a template for you to
+get your own conversion project up and running.
+</p>
+<p>
+At this point, just get the sample code converting and running, so you know you've got a
+functional baseline project. Also, generate and review the standard reports and look through them.
+Follow the instructions in the wiki from which you downloaded the respective ChUI or GUI demo
+application.
+</p>
+</dd>
+
+<dt>Read the Documentation <span class="glyphicon glyphicon-book"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+So, now you've gotten one of the samples successfully converted, built, and running in Java. You
+probably have a lot of questions and you may be anxious to try this out with your own ABL code.
+This is a good time to look over the <a href="https://proj.goldencode.com/projects/p2j/wiki/Documentation">FWD documentation</a>. The
+best place to start for practical guidance on a new conversion project is the <a class="gc-book" href="https://proj.goldencode.com/projects/p2j/wiki/Conversion_Handbook">FWD Conversion
+Handbook</a>. The
+<a href="https://proj.goldencode.com/projects/p2j/wiki/Chapter_2_Methodology">Methodology</a>
+chapter contains very similar information to what you are reading now, but with a lot more
+detail and references for further reading.
+</p>
+<p>
+You also should review carefully the <a href="https://proj.goldencode.com/projects/p2j/wiki/Supported_ABL_Features">summary of
+supported ABL features</a> to get an early idea if there are any ABL features you know your
+application uses which are not yet supported by FWD.
+</p>
+</dd>
+
+<dt>Use FWD Analytics to Learn What's Deep Within Your Code
+<span class="glyphicon glyphicon-info-sign"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+Before you embark on converting your application, you'll need to do some gap analysis to determine
+whether your application uses ABL features not yet supported by FWD. Don't be surprised if it does;
+FWD covers a lot of ground (most of the basics and a lot more), but the ABL is big and complicated.
+Any non-trivial application developed over a long period of time is likely either to use some ABL
+features not yet implemented, or to use some supported features in a way not currently anticipated
+by FWD.
+</p>
+<p>
+At this phase, you want to produce detailed reports about your application to see what's inside.
+Although not yet fully implemented across all features, there is some automated gap analysis
+directly available in the standard reports produced by the FWD Analytics tools. This will help
+flag potential problem areas quickly, using a color-coded system to indicate the level of support
+for certain language features.
+</p>
+<p>
+Using the framework provided by the sample project you built, follow the instructions in the
+<a class="gc-book" href="https://proj.goldencode.com/projects/p2j/wiki/Code_Analytics">FWD
+Analytics documentation</a>.
+</p>
+<p>
+Once you have gotten through the front end conversion and report generation processes, review in
+particular the reports which include automated gap analysis to get a sense for the coverage in
+FWD for the features your application uses.
+</p>
+</dd>
+
+<dt>Try a Proof of Concept Conversion <span class="glyphicon glyphicon-refresh"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+By this time, you're actually beyond the "Getting Started" phase and well into the implementation
+of a conversion project. Start small by isolating a well-scoped subset of your code as a proof of
+concept. Avoid features that are known to not yet be implemented. Generally, the full schema
+information can be used, but you'll want to cut out any code with features noted as unsupported in the
+<a href="https://proj.goldencode.com/projects/p2j/wiki/Supported_ABL_Features">summary of
+supported ABL features</a> and which were flagged as unsupported in the reports' gap analysis.
+</p>
+<p>
+Use the framework provided by the sample project you built, and follow the documentation in the
+FWD Conversion Handbook to convert your reduced code set. As noted earlier, the automated gap
+analysis is not yet complete, so you likely will still hit unsupported areas. To address these,
+you can either further pare down your code set to omit these uses, or get help adding these
+features (see below), if they are critical to your proof of concept.
+</p>
+</dd>
+
+<dt>Next Steps <span class="glyphicon glyphicon-expand"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+To continue with your FWD project from here, we recommend you consult the
+<a href="https://proj.goldencode.com/projects/p2j/wiki/Documentation">FWD documentation</a> for
+further guidance. As noted earlier, the <a class="gc-book" href="https://proj.goldencode.com/projects/p2j/wiki/Chapter_2_Methodology">Methodology</a>
+chapter of the <span class="gc-book">FWD Conversion Handbook</span> is a good next step.
+</p>
+
+</dd><dt>Get Help <span class="glyphicon glyphicon-question-sign"></span></dt>
+<dd class="gc-vert-pad">
+<p>
+If you get stuck, don't be discouraged; there are resources available to help you.
+</p><ul>
+<li><a href="https://proj.goldencode.com/account/register" target="_blank">Register for an
+account</a> to join the FWD community.
+</li><li>Check out the <a href="https://proj.goldencode.com/projects/p2j/boards" target="_blank">FWD
+Forums</a> to post a question or search for a topic.</li>
+<li>If you believe you have found a defect in FWD, would like to request support for a particular
+feature, or have something to contribute to the project, please refer to the <a href="https://proj.goldencode.com/projects/p2j/wiki/Development_Process" target="_blank">FWD
+development process wiki page</a> for instructions on submissions.</li>
+<li>Contact <a href="https://www.goldencode.com" _target="_blank">Golden Code Development</a>,
+the creators of the FWD project, for <a href="https://www.goldencode.com/index.html?#Services" target="_blank">professional services</a>, including adding features to FWD, assessment work,
+proofs of concept, full migrations, or anything in between.</li>
+<li><a href="site-map-fwd.html" data-link="">Follow FWD on social media</a> to get news about the
+project as it becomes available.</li>
+</ul>
+<p></p>
+</dd>
+
+</div>
+</div>
+</div>
+
+</div>
+      </div>
+   </section><nav id="topNavBar" class="navbar navbar-fixed-top gc-header-panel">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div class="navbar-brand"><a data-link="" href="home-fwd.html">
+               <img src="images/fwd_logo.png" alt="FWD Project" class="img-responsive logo animate fadeIn0 one">
+            </a>
+         
+      </div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavMenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="topNavMenu">
+      <ul class="nav navbar-nav navbar-right"><li>
+               <a data-link="" href="what-fwd.html">What?</a>
+            </li><li>
+               <a data-link="" href="why-fwd.html">Why?</a>
+            </li><li>
+               <a data-link="" href="how-fwd.html">How?</a>
+            </li><li>
+               <a data-link="" href="demo-fwd.html">Demo</a>
+            </li><li>
+               <a data-link="" href="features-fwd.html">Features</a>
+            </li><li>
+               <a data-link="" href="benefits-fwd.html">Benefits</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="develop-fwd.html">Develop</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="license-fwd.html">License</a>
+            </li><li class="hidden-sm hidden-md view-more active">
+               <a data-link="" href="start-fwd.html">Start</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Frequently_Asked_Questions">FAQ</a>
+            </li><li class="hidden-sm hidden-md view-more">
+               <a data-link="" href="https://www.goldencode.com">Help</a>
+            </li>
+         
+         <li class="visible-sm visible-md dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+               More<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu"><li><a data-link="" href="develop-fwd.html">Develop</a></li><li><a data-link="" href="license-fwd.html">License</a></li><li class="active"><a data-link="" href="start-fwd.html">Start</a></li><li><a data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Frequently_Asked_Questions">FAQ</a></li><li><a data-link="" href="https://www.goldencode.com">Help</a></li>
+               
+            </ul>
+         </li>
+        <li>
+            
+         </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<noscript>
+   <nav class="navbar navbar-fixed-top gc-header-panel">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <div class="navbar-brand">
+               <a href="https://www.beyondabl.com">
+                  <img src="images/fwd_logo.png" alt="FWD Project" class="img-responsive logo animate fadeIn0 one">
+               </a>
+            </div>
+         </div>
+      </div>
+   </nav>
+</noscript>
+<noscript>
+   <section class="gc-section">
+      <div class="container-fluid">
+         <div class="gc-included-content row no-margin">
+            <div class="gc-page-summary">
+            <p>
+            FWD is open source software which performs automated, source-to-source conversion
+            of a Progress ABL application into a compatible, drop-in replacement, written in Java.
+            </p>
+            <p style="font-weight: bold; padding-top: 2em;">
+            This site requires JavaScript. Please enable JavaScript in your browser for this site.
+            </p>
+            </div>
+         </div>
+      </div>
+   </section>
+</noscript>
+<template id="section-template">
+   <section class="hide gc-section">
+      <div class="container-fluid">
+         <div class="gc-included-content row no-margin"></div>
+      </div>
+   </section>
+</template>
+<template id="footer-template">
+   <footer class="hide gc-section gc-footer row no-margin">
+      <div class="container-fluid">
+         <div class="gc-included-content"></div>
+      </div>
+   </footer>
+</template>
+
+
+<footer class="gc-section gc-footer row no-margin">
+      <div class="container-fluid">
+         <div class="gc-included-content" id="SiteMapContact">
+
+<div class="row no-margin">
+
+
+<!-- Featured column -->
+
+<div class="col-sm-5 col-md-5 col-lg-4 gc-text">
+<h5 class="gc-footer-label">Featured</h5>
+
+<div id="carousel-featured" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-featured" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-featured" data-slide-to="1"></li>
+    <li data-target="#carousel-featured" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a href="what-fwd.html#analytics" data-link="">
+      <img src="images/fwd_analytics_sml.png" alt="4GL Source Code Analytics">
+      </a>
+      <div class="carousel-caption">4GL Source Code Analytics</div>
+    </div>
+    <div class="item">
+      <a href="features-fwd.html#direct-to-web" data-link="">
+      <img src="images/hotel_gui_integration_embedded_sml.png" alt="4GL GUI Direct-to-Web Deployment">
+      </a>
+      <div class="carousel-caption">4GL GUI Direct-to-Web</div>
+    </div>
+    <div class="item">
+      <a href="demo-fwd.html#hotel-chui-video" data-link="">
+      <img src="images/hotel_chui_sml.png" alt="4GL Character Mode UI">
+      </a>
+      <div class="carousel-caption">4GL Character Mode UI</div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-featured" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-featured" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div> <!-- end featured column -->
+
+
+<!-- Site map column -->
+
+<div class="col-sm-3 col-md-3 col-lg-4">
+
+<h5 class="gc-footer-label">Site Map</h5>
+<!--  site map component -->
+<nav>
+   <div id="siteMap" class="row no-margin"><div class="col1">
+            <a class="gc-text" data-link="" href="home-fwd.html">Home</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="what-fwd.html">What?</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="why-fwd.html">Why?</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="how-fwd.html">How?</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="demo-fwd.html">Demo</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="features-fwd.html">Features</a>
+         </div>
+         <div class="col1">
+            <a class="gc-text" data-link="" href="benefits-fwd.html">Benefits</a>
+         </div>
+         <div class="col2 top4">
+            <a class="gc-text" data-link="" href="develop-fwd.html">Develop</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="license-fwd.html">License</a>
+         </div>
+         <div class="col2 active">
+            <a class="gc-text" data-link="" href="start-fwd.html">Start</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Frequently_Asked_Questions">FAQ</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://www.goldencode.com">Help</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Downloads">Download</a>
+         </div>
+         <div class="col2">
+            <a class="gc-text" data-link="" href="https://proj.goldencode.com/projects/p2j/wiki/Documentation">Documentation</a>
+         </div>
+         
+      
+      <div>
+         
+      </div>
+   </div>
+</nav>
+
+</div> <!-- end site map column -->
+
+
+<!-- General/Contact info column -->
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+
+<h5 class="gc-footer-label">Need Help?</h5>
+<div>
+<div class="gc-text"><span class="glyphicon glyphicon-globe"></span>&nbsp;
+<a class="gc-text" href="https://www.goldencode.com">www.goldencode.com</a></div>
+<div class="gc-text"><span class="glyphicon glyphicon-phone"></span>&nbsp;
++1.920.BEYOND4gl (+1.920.239.6634)</div>
+<div class="gc-text"><span class="glyphicon glyphicon-envelope"></span>&nbsp;
+<a class="gc-text" href="mailto:fwd@goldencode.com?subject=FWD Inquiry">fwd@goldencode.com</a></div>
+</div>
+
+<h5 class="gc-footer-label">Connect</h5>
+<div style="margin-bottom: -15px;">
+<a href="https://www.facebook.com/beyondabl" target="_blank">
+<img class="gc-social-link" src="images/facebook.svg"></a>
+<a href="https://plus.google.com/+beyondabl" target="_blank">
+<img class="gc-social-link" src="images/google-plus.svg"></a>
+<a href="https://twitter.com/beyondabl" target="_blank">
+<img class="gc-social-link" src="images/twitter.svg"></a>
+<a href="https://www.linkedin.com/company/fwd-project" target="_blank">
+<img class="gc-social-link" src="images/linkedin.svg"></a>
+<!-- TODO: change to custom URL when available -->
+<a href="https://www.youtube.com/channel/UCk3pga7EKxAQVOV_CiYOR7g" target="_blank">
+<img class="gc-social-link" src="images/youtube.svg"></a>
+</div>
+
+<h5 class="gc-footer-label">FWD Project</h5>
+<div>
+<p>
+<span><a class="gc-text" href="privacy-fwd.html" data-link="">Privacy Policy</a></span> |
+<span><a class="gc-text" href="legal-fwd.html" data-link="">Legal</a></span>
+</p>
+</div>
+<div>© 2004-2017 Golden Code Development Corporation</div>
+
+</div> <!-- end general/contact info column -->
+
+
+</div> <!-- end footer row -->
+
+
+<template data-script="./site-map-fwd-script.js"></template>
+
+
+</div>
+      </div>
+   </footer></body>
+</html>
